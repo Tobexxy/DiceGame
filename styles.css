@@ -1,3 +1,59 @@
-.hin{
- font-size: large;
+.text {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.ply {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+
+}
+
+h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #4ECCA3;
+}
+
+.text p{
+    margin: 30px;
+    font-family: 'indie Flower', cursive;
+    font-size: 2rem;
+    color: #4ECCA3; 
+
+}
+
+p{
+    margin: 30px;
+    font-family: 'indie Flower', cursive;
+    font-size: 2rem;
+    color: #4ECCA3; 
+}
+
+img {
+    width: 80%;
+}
+body{
+    background-color: #232931;
+}
+
+footer{
+    margin-top: 3%;
+    color: white;
+    text-align: center;
+    font-family: 'indie Flower', cursive;
+    font-size: 2rem;
+}
+/*width: 80%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin: auto;
 }
