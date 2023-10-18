@@ -1,13 +1,4 @@
-//players adding their names
-var p1 = prompt("Insert your name here Player 1")
-var fir = p1.toLocaleLowerCase();
-var sec = p1.toUpperCase();
-var player1Name = sec.slice(0,1) + fir.slice(1,p1.length);
 
-var p2 = prompt("Insert your name here Player 2")
-var fir2 = p2.toLocaleLowerCase();
-var sec2 = p2.toUpperCase();
-var player2Name = sec2.slice(0,1) + fir2.slice(1,p2.length);
 
 var randomNumber1 = Math.floor((Math.random() * 6) + 1); // random number between 1 and 6
 
@@ -48,3 +39,14 @@ else if (randomNumber1 > randomNumber2){
 else{
  document.querySelectorAll(".text p")[0].innerHTML = "Its a tie, You both got lucky, Refresh me to go again!";
 }
+
+//players adding their names
+var p1 = prompt("Insert your name here Player 1")
+var fir = p1.toLocaleLowerCase();
+var sec = p1.toUpperCase();
+var player1Name = sec.slice(0,1) + fir.slice(1,p1.length);
+
+var p2 = prompt("Insert your name here Player 2")
+var fir2 = p2.toLocaleLowerCase();
+var sec2 = p2.toUpperCase();
+var player2Name = sec2.slice(0,1) + fir2.slice(1,p2.length);
